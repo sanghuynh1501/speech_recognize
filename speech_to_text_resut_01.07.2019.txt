@@ -1,0 +1,1221 @@
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ra61t_nhie62u/leminh1.wav
+origin text:  rất_nhiều
+predict text:  cnất nhiều
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ra61t_nhie62u/lannhi0.wav
+origin text:  rất_nhiều
+predict text:  trất nhiều
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ra61t_nhie62u/thudung-1.wav
+origin text:  rất_nhiều
+predict text:  trất nhiều
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ra61t_nhie62u/caochung1.wav
+origin text:  rất_nhiều
+predict text:  trất nhiều
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ra61t_nhie62u/leminh-1.wav
+origin text:  rất_nhiều
+predict text:  tgất nhiều
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ra61t_nhie62u/banmai0.wav
+origin text:  rất_nhiều
+predict text:  trất nhiều
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ra61t_nhie62u/caochung0.wav
+origin text:  rất_nhiều
+predict text:  trất nhiều
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ra61t_nhie62u/lannhi-1.wav
+origin text:  rất_nhiều
+predict text:  trất nhiều
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ra61t_nhie62u/hatieumai1.wav
+origin text:  rất_nhiều
+predict text:  trất nhiểu
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ra61t_nhie62u/banmai-1.wav
+origin text:  rất_nhiều
+predict text:  trất nhiều
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ra61t_nhie62u/leminh0.wav
+origin text:  rất_nhiều
+predict text:  clrất nhiều
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ra61t_nhie62u/caochung-1.wav
+origin text:  rất_nhiều
+predict text:  trất nhiều
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ra61t_nhie62u/hatieumai-1.wav
+origin text:  rất_nhiều
+predict text:  trất nhiệu
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ra61t_nhie62u/thudung1.wav
+origin text:  rất_nhiều
+predict text:  trất nhiều
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ra61t_nhie62u/lannhi1.wav
+origin text:  rất_nhiều
+predict text:  trất nhiều
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ra61t_nhie62u/thudung0.wav
+origin text:  rất_nhiều
+predict text:  trất nhiều
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ra61t_nhie62u/banmai1.wav
+origin text:  rất_nhiều
+predict text:  trất nhiều
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/d9u7o75c_nghe/hatieumai0.wav
+origin text:  được_nghe
+predict text:  sđược nhe
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/d9u7o75c_nghe/leminh1.wav
+origin text:  được_nghe
+predict text:  đực nhe
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/d9u7o75c_nghe/lannhi0.wav
+origin text:  được_nghe
+predict text:  tđược nhe
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/d9u7o75c_nghe/thudung-1.wav
+origin text:  được_nghe
+predict text:  được nghe
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/d9u7o75c_nghe/caochung1.wav
+origin text:  được_nghe
+predict text:  sđược nhe
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/d9u7o75c_nghe/leminh-1.wav
+origin text:  được_nghe
+predict text:  được nhé
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/d9u7o75c_nghe/banmai0.wav
+origin text:  được_nghe
+predict text:  tđược nhe
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/d9u7o75c_nghe/caochung0.wav
+origin text:  được_nghe
+predict text:  tđược nhe
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/d9u7o75c_nghe/lannhi-1.wav
+origin text:  được_nghe
+predict text:  được nghe
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/d9u7o75c_nghe/hatieumai1.wav
+origin text:  được_nghe
+predict text:  được nhe
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/d9u7o75c_nghe/banmai-1.wav
+origin text:  được_nghe
+predict text:  được nghe
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/d9u7o75c_nghe/leminh0.wav
+origin text:  được_nghe
+predict text:  5được nghé
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/d9u7o75c_nghe/caochung-1.wav
+origin text:  được_nghe
+predict text:  được nghe
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/d9u7o75c_nghe/hatieumai-1.wav
+origin text:  được_nghe
+predict text:  5được nhe
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/d9u7o75c_nghe/thudung1.wav
+origin text:  được_nghe
+predict text:  sđược nhe
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/d9u7o75c_nghe/lannhi1.wav
+origin text:  được_nghe
+predict text:  sđược nhe
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/d9u7o75c_nghe/thudung0.wav
+origin text:  được_nghe
+predict text:  tđược nhe
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/d9u7o75c_nghe/banmai1.wav
+origin text:  được_nghe
+predict text:  sđược nhe
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_vo71i_co6_a61y/hatieumai0.wav
+origin text:  anh_với_cô_ấy
+predict text:   anh với cu6 ấy
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_vo71i_co6_a61y/leminh1.wav
+origin text:  anh_với_cô_ấy
+predict text:  manh vờicúa huấy
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_vo71i_co6_a61y/lannhi0.wav
+origin text:  anh_với_cô_ấy
+predict text:   anh với cố ối
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_vo71i_co6_a61y/thudung-1.wav
+origin text:  anh_với_cô_ấy
+predict text:   anh mới cố ối
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_vo71i_co6_a61y/caochung1.wav
+origin text:  anh_với_cô_ấy
+predict text:  manh với cô ấy
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_vo71i_co6_a61y/leminh-1.wav
+origin text:  anh_với_cô_ấy
+predict text:  hanh ới cớ uấi
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_vo71i_co6_a61y/banmai0.wav
+origin text:  anh_với_cô_ấy
+predict text:   anh với cố ối
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_vo71i_co6_a61y/caochung0.wav
+origin text:  anh_với_cô_ấy
+predict text:   anh với cố ối
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_vo71i_co6_a61y/lannhi-1.wav
+origin text:  anh_với_cô_ấy
+predict text:   anh mới cố ối
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_vo71i_co6_a61y/hatieumai1.wav
+origin text:  anh_với_cô_ấy
+predict text:  nanh với coủa ấy
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_vo71i_co6_a61y/banmai-1.wav
+origin text:  anh_với_cô_ấy
+predict text:   anh mới cố ối
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_vo71i_co6_a61y/leminh0.wav
+origin text:  anh_với_cô_ấy
+predict text:  hanh vố quới
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_vo71i_co6_a61y/caochung-1.wav
+origin text:  anh_với_cô_ấy
+predict text:   anh mới cố ối
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_vo71i_co6_a61y/hatieumai-1.wav
+origin text:  anh_với_cô_ấy
+predict text:   anh vưới cổ ấy
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_vo71i_co6_a61y/thudung1.wav
+origin text:  anh_với_cô_ấy
+predict text:  manh với cô ấy
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_vo71i_co6_a61y/lannhi1.wav
+origin text:  anh_với_cô_ấy
+predict text:  manh với cô ấy
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_vo71i_co6_a61y/thudung0.wav
+origin text:  anh_với_cô_ấy
+predict text:   anh với cố ối
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_vo71i_co6_a61y/banmai1.wav
+origin text:  anh_với_cô_ấy
+predict text:  manh với cô ấy
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/va2_hu71a_chi3_no1i/hatieumai0.wav
+origin text:  và_hứa_chỉ_nói
+predict text:   và mưa chia nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/va2_hu71a_chi3_no1i/leminh1.wav
+origin text:  và_hứa_chỉ_nói
+predict text:   và uớ chi nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/va2_hu71a_chi3_no1i/lannhi0.wav
+origin text:  và_hứa_chỉ_nói
+predict text:   và ứ thi nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/va2_hu71a_chi3_no1i/thudung-1.wav
+origin text:  và_hứa_chỉ_nói
+predict text:   và mứa thi nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/va2_hu71a_chi3_no1i/caochung1.wav
+origin text:  và_hứa_chỉ_nói
+predict text:   và cứ chi nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/va2_hu71a_chi3_no1i/leminh-1.wav
+origin text:  và_hứa_chỉ_nói
+predict text:   và ư chi nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/va2_hu71a_chi3_no1i/banmai0.wav
+origin text:  và_hứa_chỉ_nói
+predict text:   và ứ thi nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/va2_hu71a_chi3_no1i/caochung0.wav
+origin text:  và_hứa_chỉ_nói
+predict text:   và ứ thi nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/va2_hu71a_chi3_no1i/lannhi-1.wav
+origin text:  và_hứa_chỉ_nói
+predict text:   và mứa thi nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/va2_hu71a_chi3_no1i/hatieumai1.wav
+origin text:  và_hứa_chỉ_nói
+predict text:   và mưa chi nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/va2_hu71a_chi3_no1i/banmai-1.wav
+origin text:  và_hứa_chỉ_nói
+predict text:   và mứa thi nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/va2_hu71a_chi3_no1i/leminh0.wav
+origin text:  và_hứa_chỉ_nói
+predict text:   và mứ chi nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/va2_hu71a_chi3_no1i/caochung-1.wav
+origin text:  và_hứa_chỉ_nói
+predict text:   và mứa thi nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/va2_hu71a_chi3_no1i/hatieumai-1.wav
+origin text:  và_hứa_chỉ_nói
+predict text:   và mưa chia nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/va2_hu71a_chi3_no1i/thudung1.wav
+origin text:  và_hứa_chỉ_nói
+predict text:   và cứ chi nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/va2_hu71a_chi3_no1i/lannhi1.wav
+origin text:  và_hứa_chỉ_nói
+predict text:   và cứ chi nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/va2_hu71a_chi3_no1i/thudung0.wav
+origin text:  và_hứa_chỉ_nói
+predict text:   và ứ thi nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/va2_hu71a_chi3_no1i/banmai1.wav
+origin text:  và_hứa_chỉ_nói
+predict text:   và cứ chi nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_ca6u_chuye65n_cu4/hatieumai0.wav
+origin text:  những_câu_chuyện_cũ
+predict text:  dnhững câu chuyện cũ
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_ca6u_chuye65n_cu4/leminh1.wav
+origin text:  những_câu_chuyện_cũ
+predict text:   nhưng câu chuyện cũn
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_ca6u_chuye65n_cu4/thudung-1.wav
+origin text:  những_câu_chuyện_cũ
+predict text:  những câu chuyện cũ
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_ca6u_chuye65n_cu4/caochung1.wav
+origin text:  những_câu_chuyện_cũ
+predict text:  những câu chuyện cũ
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_ca6u_chuye65n_cu4/leminh-1.wav
+origin text:  những_câu_chuyện_cũ
+predict text:   nhưng câu chuyện cũn
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_ca6u_chuye65n_cu4/caochung0.wav
+origin text:  những_câu_chuyện_cũ
+predict text:  những câu chuyện cũ
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_ca6u_chuye65n_cu4/leminh0.wav
+origin text:  những_câu_chuyện_cũ
+predict text:  dnhưng câu chuyện cũ
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_ca6u_chuye65n_cu4/caochung-1.wav
+origin text:  những_câu_chuyện_cũ
+predict text:  những câu chuyện cũ
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_ca6u_chuye65n_cu4/hatieumai-1.wav
+origin text:  những_câu_chuyện_cũ
+predict text:  dnhe74ng câu chuyện cũ
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_ca6u_chuye65n_cu4/thudung1.wav
+origin text:  những_câu_chuyện_cũ
+predict text:  những câu chuyện cũ
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_ca6u_chuye65n_cu4/thudung0.wav
+origin text:  những_câu_chuyện_cũ
+predict text:  những câu chuyện cũ
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_bie61t_kho6ng/hatieumai0.wav
+origin text:  anh_biết_không
+predict text:  hanh biết không
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_bie61t_kho6ng/leminh1.wav
+origin text:  anh_biết_không
+predict text:  hanh byết không
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_bie61t_kho6ng/lannhi0.wav
+origin text:  anh_biết_không
+predict text:  hanh biết không
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_bie61t_kho6ng/thudung-1.wav
+origin text:  anh_biết_không
+predict text:  hanh biết không
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_bie61t_kho6ng/caochung1.wav
+origin text:  anh_biết_không
+predict text:  hanh biết không
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_bie61t_kho6ng/leminh-1.wav
+origin text:  anh_biết_không
+predict text:   anh biết không
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_bie61t_kho6ng/banmai0.wav
+origin text:  anh_biết_không
+predict text:  hanh biết không
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_bie61t_kho6ng/caochung0.wav
+origin text:  anh_biết_không
+predict text:  hanh biết không
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_bie61t_kho6ng/lannhi-1.wav
+origin text:  anh_biết_không
+predict text:  hanh biết không
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_bie61t_kho6ng/hatieumai1.wav
+origin text:  anh_biết_không
+predict text:  hanh biết không
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_bie61t_kho6ng/banmai-1.wav
+origin text:  anh_biết_không
+predict text:  hanh biết không
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_bie61t_kho6ng/leminh0.wav
+origin text:  anh_biết_không
+predict text:   anh biết không
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_bie61t_kho6ng/caochung-1.wav
+origin text:  anh_biết_không
+predict text:  hanh biết không
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_bie61t_kho6ng/hatieumai-1.wav
+origin text:  anh_biết_không
+predict text:  hanh biết không
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_bie61t_kho6ng/thudung1.wav
+origin text:  anh_biết_không
+predict text:  hanh biết không
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_bie61t_kho6ng/lannhi1.wav
+origin text:  anh_biết_không
+predict text:  hanh biết không
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_bie61t_kho6ng/thudung0.wav
+origin text:  anh_biết_không
+predict text:  hanh biết không
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_bie61t_kho6ng/banmai1.wav
+origin text:  anh_biết_không
+predict text:  hanh biết không
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_chi1nh_em/hatieumai0.wav
+origin text:  với_chính_em
+predict text:  ivói thin em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_chi1nh_em/leminh1.wav
+origin text:  với_chính_em
+predict text:  với tin em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_chi1nh_em/lannhi0.wav
+origin text:  với_chính_em
+predict text:  yvới tinm em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_chi1nh_em/thudung-1.wav
+origin text:  với_chính_em
+predict text:  7với tin em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_chi1nh_em/caochung1.wav
+origin text:  với_chính_em
+predict text:  2với thim em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_chi1nh_em/leminh-1.wav
+origin text:  với_chính_em
+predict text:  kvới tinh em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_chi1nh_em/banmai0.wav
+origin text:  với_chính_em
+predict text:  yvới tinm em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_chi1nh_em/caochung0.wav
+origin text:  với_chính_em
+predict text:  yvới tinm em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_chi1nh_em/lannhi-1.wav
+origin text:  với_chính_em
+predict text:  7với tin em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_chi1nh_em/hatieumai1.wav
+origin text:  với_chính_em
+predict text:  icvói tin em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_chi1nh_em/banmai-1.wav
+origin text:  với_chính_em
+predict text:  7với tin em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_chi1nh_em/leminh0.wav
+origin text:  với_chính_em
+predict text:  với tin em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_chi1nh_em/caochung-1.wav
+origin text:  với_chính_em
+predict text:  7với tin em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_chi1nh_em/hatieumai-1.wav
+origin text:  với_chính_em
+predict text:  1với thin em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_chi1nh_em/thudung1.wav
+origin text:  với_chính_em
+predict text:  2với thim em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_chi1nh_em/lannhi1.wav
+origin text:  với_chính_em
+predict text:  2với thim em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_chi1nh_em/thudung0.wav
+origin text:  với_chính_em
+predict text:  yvới tinm em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_chi1nh_em/banmai1.wav
+origin text:  với_chính_em
+predict text:  2với thim em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_te65_la81m/hatieumai0.wav
+origin text:  anh_tệ_lắm
+predict text:  ganh kề lắm
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_te65_la81m/leminh1.wav
+origin text:  anh_tệ_lắm
+predict text:  hanh kế2 lằm
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_te65_la81m/lannhi0.wav
+origin text:  anh_tệ_lắm
+predict text:   anh tkế lắm
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_te65_la81m/thudung-1.wav
+origin text:  anh_tệ_lắm
+predict text:  hanh kế lắm
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_te65_la81m/caochung1.wav
+origin text:  anh_tệ_lắm
+predict text:   anh kề lắm
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_te65_la81m/leminh-1.wav
+origin text:  anh_tệ_lắm
+predict text:   anh kế lắm
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_te65_la81m/banmai0.wav
+origin text:  anh_tệ_lắm
+predict text:   anh tkế lắm
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_te65_la81m/caochung0.wav
+origin text:  anh_tệ_lắm
+predict text:   anh tkế lắm
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_te65_la81m/lannhi-1.wav
+origin text:  anh_tệ_lắm
+predict text:  hanh kế lắm
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_te65_la81m/hatieumai1.wav
+origin text:  anh_tệ_lắm
+predict text:  hanh kể2 lắm
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_te65_la81m/banmai-1.wav
+origin text:  anh_tệ_lắm
+predict text:  hanh kế lắm
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_te65_la81m/leminh0.wav
+origin text:  anh_tệ_lắm
+predict text:   anh kế2 lằm
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_te65_la81m/caochung-1.wav
+origin text:  anh_tệ_lắm
+predict text:  hanh kế lắm
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_te65_la81m/hatieumai-1.wav
+origin text:  anh_tệ_lắm
+predict text:  hanh kế lắm
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_te65_la81m/thudung1.wav
+origin text:  anh_tệ_lắm
+predict text:   anh kề lắm
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_te65_la81m/lannhi1.wav
+origin text:  anh_tệ_lắm
+predict text:   anh kề lắm
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_te65_la81m/thudung0.wav
+origin text:  anh_tệ_lắm
+predict text:   anh tkế lắm
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_te65_la81m/banmai1.wav
+origin text:  anh_tệ_lắm
+predict text:   anh kề lắm
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ve62_anh/hatieumai0.wav
+origin text:  về_anh
+predict text:   gvề anh
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ve62_anh/leminh1.wav
+origin text:  về_anh
+predict text:  yvùy anh
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ve62_anh/lannhi0.wav
+origin text:  về_anh
+predict text:   về anh
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ve62_anh/thudung-1.wav
+origin text:  về_anh
+predict text:  về anh
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ve62_anh/caochung1.wav
+origin text:  về_anh
+predict text:   về anh
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ve62_anh/leminh-1.wav
+origin text:  về_anh
+predict text:   vầ anh
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ve62_anh/banmai0.wav
+origin text:  về_anh
+predict text:   về anh
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ve62_anh/caochung0.wav
+origin text:  về_anh
+predict text:   về anh
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ve62_anh/lannhi-1.wav
+origin text:  về_anh
+predict text:  về anh
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ve62_anh/hatieumai1.wav
+origin text:  về_anh
+predict text:  vễ anh
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ve62_anh/banmai-1.wav
+origin text:  về_anh
+predict text:  về anh
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ve62_anh/leminh0.wav
+origin text:  về_anh
+predict text:  ivay anh
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ve62_anh/caochung-1.wav
+origin text:  về_anh
+predict text:  về anh
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ve62_anh/hatieumai-1.wav
+origin text:  về_anh
+predict text:   vê anh
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ve62_anh/thudung1.wav
+origin text:  về_anh
+predict text:   về anh
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ve62_anh/lannhi1.wav
+origin text:  về_anh
+predict text:   về anh
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ve62_anh/thudung0.wav
+origin text:  về_anh
+predict text:   về anh
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/ve62_anh/banmai1.wav
+origin text:  về_anh
+predict text:   về anh
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/em_kho6ng_the63_tin/hatieumai0.wav
+origin text:  em_không_thể_tin
+predict text:  mem không thè tiên
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/em_kho6ng_the63_tin/leminh1.wav
+origin text:  em_không_thể_tin
+predict text:   em không thể tìm
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/em_kho6ng_the63_tin/lannhi0.wav
+origin text:  em_không_thể_tin
+predict text:  mem không thể tim
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/em_kho6ng_the63_tin/thudung-1.wav
+origin text:  em_không_thể_tin
+predict text:  mem không thề tim
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/em_kho6ng_the63_tin/caochung1.wav
+origin text:  em_không_thể_tin
+predict text:  em không thể tim
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/em_kho6ng_the63_tin/leminh-1.wav
+origin text:  em_không_thể_tin
+predict text:  mem không thể tim
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/em_kho6ng_the63_tin/banmai0.wav
+origin text:  em_không_thể_tin
+predict text:  mem không thể tim
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/em_kho6ng_the63_tin/caochung0.wav
+origin text:  em_không_thể_tin
+predict text:  mem không thể tim
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/em_kho6ng_the63_tin/lannhi-1.wav
+origin text:  em_không_thể_tin
+predict text:  mem không thề tim
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/em_kho6ng_the63_tin/hatieumai1.wav
+origin text:  em_không_thể_tin
+predict text:  mem không thè tinh
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/em_kho6ng_the63_tin/banmai-1.wav
+origin text:  em_không_thể_tin
+predict text:  mem không thề tim
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/em_kho6ng_the63_tin/leminh0.wav
+origin text:  em_không_thể_tin
+predict text:   em không thề5 tiên
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/em_kho6ng_the63_tin/caochung-1.wav
+origin text:  em_không_thể_tin
+predict text:  mem không thề tim
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/em_kho6ng_the63_tin/hatieumai-1.wav
+origin text:  em_không_thể_tin
+predict text:  mem không thé tiên
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/em_kho6ng_the63_tin/thudung1.wav
+origin text:  em_không_thể_tin
+predict text:  em không thể tim
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/em_kho6ng_the63_tin/lannhi1.wav
+origin text:  em_không_thể_tin
+predict text:  em không thể tim
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/em_kho6ng_the63_tin/thudung0.wav
+origin text:  em_không_thể_tin
+predict text:  mem không thể tim
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/em_kho6ng_the63_tin/banmai1.wav
+origin text:  em_không_thể_tin
+predict text:  em không thể tim
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/bo3_ngoa2i_tai/hatieumai0.wav
+origin text:  bỏ_ngoài_tai
+predict text:   bò ngoài tai
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/bo3_ngoa2i_tai/leminh1.wav
+origin text:  bỏ_ngoài_tai
+predict text:   nbòu nhoài tai
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/bo3_ngoa2i_tai/lannhi0.wav
+origin text:  bỏ_ngoài_tai
+predict text:   bò nhgoài tai
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/bo3_ngoa2i_tai/thudung-1.wav
+origin text:  bỏ_ngoài_tai
+predict text:   bgò ngoài tai
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/bo3_ngoa2i_tai/caochung1.wav
+origin text:  bỏ_ngoài_tai
+predict text:   ngọ ngoài tai
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/bo3_ngoa2i_tai/leminh-1.wav
+origin text:  bỏ_ngoài_tai
+predict text:   bồu ngoài tai
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/bo3_ngoa2i_tai/banmai0.wav
+origin text:  bỏ_ngoài_tai
+predict text:   bò nhgoài tai
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/bo3_ngoa2i_tai/caochung0.wav
+origin text:  bỏ_ngoài_tai
+predict text:   bò nhgoài tai
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/bo3_ngoa2i_tai/lannhi-1.wav
+origin text:  bỏ_ngoài_tai
+predict text:   bgò ngoài tai
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/bo3_ngoa2i_tai/hatieumai1.wav
+origin text:  bỏ_ngoài_tai
+predict text:   bò ngoài tai
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/bo3_ngoa2i_tai/banmai-1.wav
+origin text:  bỏ_ngoài_tai
+predict text:   bgò ngoài tai
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/bo3_ngoa2i_tai/leminh0.wav
+origin text:  bỏ_ngoài_tai
+predict text:   bòu nhgoài tai
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/bo3_ngoa2i_tai/caochung-1.wav
+origin text:  bỏ_ngoài_tai
+predict text:   bgò ngoài tai
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/bo3_ngoa2i_tai/hatieumai-1.wav
+origin text:  bỏ_ngoài_tai
+predict text:   bò nhgoài tai
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/bo3_ngoa2i_tai/thudung1.wav
+origin text:  bỏ_ngoài_tai
+predict text:   ngọ ngoài tai
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/bo3_ngoa2i_tai/lannhi1.wav
+origin text:  bỏ_ngoài_tai
+predict text:   ngọ ngoài tai
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/bo3_ngoa2i_tai/thudung0.wav
+origin text:  bỏ_ngoài_tai
+predict text:   bò nhgoài tai
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/bo3_ngoa2i_tai/banmai1.wav
+origin text:  bỏ_ngoài_tai
+predict text:   ngọ ngoài tai
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_lo72i_no1i/hatieumai0.wav
+origin text:  những_lời_nói
+predict text:  những lời nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_lo72i_no1i/leminh1.wav
+origin text:  những_lời_nói
+predict text:  những lời nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_lo72i_no1i/lannhi0.wav
+origin text:  những_lời_nói
+predict text:  những lời nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_lo72i_no1i/thudung-1.wav
+origin text:  những_lời_nói
+predict text:  những nlời nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_lo72i_no1i/caochung1.wav
+origin text:  những_lời_nói
+predict text:  những nlời nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_lo72i_no1i/leminh-1.wav
+origin text:  những_lời_nói
+predict text:  những lời nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_lo72i_no1i/banmai0.wav
+origin text:  những_lời_nói
+predict text:  những lời nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_lo72i_no1i/caochung0.wav
+origin text:  những_lời_nói
+predict text:  những lời nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_lo72i_no1i/lannhi-1.wav
+origin text:  những_lời_nói
+predict text:  những nlời nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_lo72i_no1i/hatieumai1.wav
+origin text:  những_lời_nói
+predict text:  những lời nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_lo72i_no1i/banmai-1.wav
+origin text:  những_lời_nói
+predict text:  những nlời nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_lo72i_no1i/leminh0.wav
+origin text:  những_lời_nói
+predict text:  những lời nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_lo72i_no1i/caochung-1.wav
+origin text:  những_lời_nói
+predict text:  những nlời nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_lo72i_no1i/hatieumai-1.wav
+origin text:  những_lời_nói
+predict text:  những lời nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_lo72i_no1i/thudung1.wav
+origin text:  những_lời_nói
+predict text:  những nlời nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_lo72i_no1i/lannhi1.wav
+origin text:  những_lời_nói
+predict text:  những nlời nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_lo72i_no1i/thudung0.wav
+origin text:  những_lời_nói
+predict text:  những lời nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/nhu74ng_lo72i_no1i/banmai1.wav
+origin text:  những_lời_nói
+predict text:  những nlời nói
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_mo64i_em/hatieumai0.wav
+origin text:  với_mỗi_em
+predict text:  n với muốt em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_mo64i_em/leminh1.wav
+origin text:  với_mỗi_em
+predict text:   với muối em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_mo64i_em/lannhi0.wav
+origin text:  với_mỗi_em
+predict text:  ivới ngội em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_mo64i_em/thudung-1.wav
+origin text:  với_mỗi_em
+predict text:  1với ngồi em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_mo64i_em/caochung1.wav
+origin text:  với_mỗi_em
+predict text:  7với ngối em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_mo64i_em/leminh-1.wav
+origin text:  với_mỗi_em
+predict text:  vô71i mối em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_mo64i_em/banmai0.wav
+origin text:  với_mỗi_em
+predict text:  ivới ngội em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_mo64i_em/caochung0.wav
+origin text:  với_mỗi_em
+predict text:  ivới ngội em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_mo64i_em/lannhi-1.wav
+origin text:  với_mỗi_em
+predict text:  1với ngồi em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_mo64i_em/hatieumai1.wav
+origin text:  với_mỗi_em
+predict text:  ivúi mỗi em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_mo64i_em/banmai-1.wav
+origin text:  với_mỗi_em
+predict text:  1với ngồi em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_mo64i_em/leminh0.wav
+origin text:  với_mỗi_em
+predict text:   với mố em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_mo64i_em/caochung-1.wav
+origin text:  với_mỗi_em
+predict text:  1với ngồi em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_mo64i_em/hatieumai-1.wav
+origin text:  với_mỗi_em
+predict text:   vớ mội em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_mo64i_em/thudung1.wav
+origin text:  với_mỗi_em
+predict text:  7với ngối em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_mo64i_em/lannhi1.wav
+origin text:  với_mỗi_em
+predict text:  7với ngối em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_mo64i_em/thudung0.wav
+origin text:  với_mỗi_em
+predict text:  ivới ngội em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/vo71i_mo64i_em/banmai1.wav
+origin text:  với_mỗi_em
+predict text:  7với ngối em
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_no1i_ye6u_co6_a61y/hatieumai0.wav
+origin text:  anh_nói_yêu_cô_ấy
+predict text:   anh nỏi yêu qhuấy
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_no1i_ye6u_co6_a61y/leminh1.wav
+origin text:  anh_nói_yêu_cô_ấy
+predict text:   anh ngói yêu quôi
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_no1i_ye6u_co6_a61y/lannhi0.wav
+origin text:  anh_nói_yêu_cô_ấy
+predict text:  manh ngói yêu cú ấi
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_no1i_ye6u_co6_a61y/thudung-1.wav
+origin text:  anh_nói_yêu_cô_ấy
+predict text:  manh ngói niêu cou6a ối
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_no1i_ye6u_co6_a61y/caochung1.wav
+origin text:  anh_nói_yêu_cô_ấy
+predict text:   anh ngói yêu cố ấy
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_no1i_ye6u_co6_a61y/leminh-1.wav
+origin text:  anh_nói_yêu_cô_ấy
+predict text:   anh ngỏi yêu quấy
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_no1i_ye6u_co6_a61y/banmai0.wav
+origin text:  anh_nói_yêu_cô_ấy
+predict text:  manh ngói yêu cú ấi
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_no1i_ye6u_co6_a61y/caochung0.wav
+origin text:  anh_nói_yêu_cô_ấy
+predict text:  manh ngói yêu cú ấi
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_no1i_ye6u_co6_a61y/lannhi-1.wav
+origin text:  anh_nói_yêu_cô_ấy
+predict text:  manh ngói niêu cou6a ối
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_no1i_ye6u_co6_a61y/hatieumai1.wav
+origin text:  anh_nói_yêu_cô_ấy
+predict text:   anh ngòi êu qhấy
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_no1i_ye6u_co6_a61y/banmai-1.wav
+origin text:  anh_nói_yêu_cô_ấy
+predict text:  manh ngói niêu cou6a ối
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_no1i_ye6u_co6_a61y/leminh0.wav
+origin text:  anh_nói_yêu_cô_ấy
+predict text:  ganh ngói yêu quoêi
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_no1i_ye6u_co6_a61y/caochung-1.wav
+origin text:  anh_nói_yêu_cô_ấy
+predict text:  manh ngói niêu cou6a ối
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_no1i_ye6u_co6_a61y/hatieumai-1.wav
+origin text:  anh_nói_yêu_cô_ấy
+predict text:  hanh nhọi êu u uấi
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_no1i_ye6u_co6_a61y/thudung1.wav
+origin text:  anh_nói_yêu_cô_ấy
+predict text:   anh ngói yêu cố ấy
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_no1i_ye6u_co6_a61y/lannhi1.wav
+origin text:  anh_nói_yêu_cô_ấy
+predict text:   anh ngói yêu cố ấy
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_no1i_ye6u_co6_a61y/thudung0.wav
+origin text:  anh_nói_yêu_cô_ấy
+predict text:  manh ngói yêu cú ấi
+-----------------------------------------
+-----------------------------------------
+file path:  test_data/anh_no1i_ye6u_co6_a61y/banmai1.wav
+origin text:  anh_nói_yêu_cô_ấy
+predict text:   anh ngói yêu cố ấy
+-----------------------------------------
