@@ -17,12 +17,15 @@ from keras import backend as K
 from keras.optimizers import SGD
 from keras.preprocessing import image
 from keras.models import Model, load_model
+from keras.preprocessing.sequence import pad_sequences
 from mlcollect import HDF5DatasetWriter, HDF5DatasetGenerator
-from keras.layers import Input, Dense, AveragePooling2D, Activation, Bidirectional, CuDNNGRU, CuDNNLSTM, LSTM, BatchNormalization, Dropout, TimeDistributed, GRU, Reshape, Lambda, Add, concatenate, Conv2D, MaxPooling2D
+from keras.layers import Embedding, Input, Dense, AveragePooling2D, Activation, Bidirectional, CuDNNGRU, CuDNNLSTM, LSTM, BatchNormalization, Dropout, TimeDistributed, GRU, Reshape, Lambda, Add, concatenate, Conv2D, MaxPooling2D
 from sklearn.model_selection import train_test_split
 from keras.callbacks import ModelCheckpoint
 from keras import regularizers, initializers, optimizers
 from keras.activations import relu
+from keras.preprocessing.text import Tokenizer
+from keras.utils import to_categorical
 
 from keras.backend.tensorflow_backend import set_session
 import tensorflow as tf
@@ -35,7 +38,12 @@ TRAIN_DATA_PATH = './vn_voice_data_16k/train/'
 TEST_DATA_PATH = './vn_voice_data_16k/test/'
 
 alphabet = ['a','b','c','d','e', 'f','g','h','i', 'j', 'k','l','m','n','o','p','q','r','s','t','u','v', 'w', 'x', 'y', 'z', ' ', '_', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-MAX_TEXT_LEN = 50
+MAX_TEXT_LEN = 30
+
+def create_tokenizer(lines):
+    tokenizer = Tokenizer()
+    tokenizer.fit_on_texts(lines)
+    return tokenizer
 
 def custom_fft(y, fs):
     T = 1.0 / fs
@@ -93,12 +101,12 @@ class TextImageGenerator(keras.callbacks.Callback):
         
         self.n_train = 0
         self.n_test = 0
-        self.second = 3
+        self.second = 5
 
     def get_output_size(self):
         return len(alphabet) + 1
     
-    def write_data (self, number, outputPath, data_path):
+    def write_data (self, number, tokenization, outputPath, data_path):
         dataset = HDF5DatasetWriter(data_dims=(number, 100 * self.second - 1, 81, 1), label_dims=(number, MAX_TEXT_LEN), outputPath=outputPath, dataKey='images', bufSize=1000)
         labels = get_labels(data_path)
         count = 0
@@ -120,28 +128,28 @@ class TextImageGenerator(keras.callbacks.Callback):
                     # augmentation_data.append(sample_stretch)
                     
                     for samples in augmentation_data:
-                        if len(label) <= MAX_TEXT_LEN and len(label) > 5:
-                            try:
-                                if len(samples) <= self.second * sample_rate:
-                                    # n_samples = chop_audio(samples, self.second * sample_rate)
-                                # else: 
-                                    # n_samples = [samples]
-                                    # for samples in n_samples:
-                                        # samples.astype(float)
-                                        # samples = samples / (2.0**(16-1) + 1)
-                                    resampled = signal.resample(samples, int(8000 / sample_rate * samples.shape[0]))
-                                    _, _, specgram = log_specgram(resampled, sample_rate=8000)
-                                    # print(len(specgram))
-                                    if (len(specgram) == 100 * self.second - 1):
-                                        specgram = np.reshape(specgram, (1, 100 * self.second - 1, 81, 1))
-                                        np_label = np.array(text_to_labels(label))
-                                        np_label = np.expand_dims(np_label, 0)
-                                        dataset.add(specgram, np_label, [len(label)])
-                                        del np_label
-                                        count += 1
-                                    del specgram
-                            except:
-                                print('error')
+                        if len(label.split('_')) <= MAX_TEXT_LEN and len(label) >= 5:
+                            # try:
+                            if len(samples) <= self.second * sample_rate:
+                                # n_samples = chop_audio(samples, self.second * sample_rate)
+                            # else: 
+                                # n_samples = [samples]
+                                # for samples in n_samples:
+                                    # samples.astype(float)
+                                    # samples = samples / (2.0**(16-1) + 1)
+                                resampled = signal.resample(samples, int(8000 / sample_rate * samples.shape[0]))
+                                _, _, specgram = log_specgram(resampled, sample_rate=8000)
+                                # print(len(specgram))
+                                if (len(specgram) == 100 * self.second - 1):
+                                    specgram = np.reshape(specgram, (1, 100 * self.second - 1, 81, 1))
+                                    np_label = np.array(text_to_labels(tokenization, label, MAX_TEXT_LEN))
+                                    # np_label = np.expand_dims(np_label, 0)
+                                    dataset.add(specgram, np_label, [len(label.split('_'))])
+                                    del np_label
+                                    count += 1
+                                del specgram
+                            # except:
+                            #     print('error')
                     if count >= number:
                         break
                 if count >= number:
@@ -154,6 +162,7 @@ class TextImageGenerator(keras.callbacks.Callback):
     def process_count (self, data_path):
         labels = get_labels(data_path)
         count = 0
+        lines = []
         with tqdm(total=len(labels)) as pbar:
             for label in labels:
                 path = [data_path  + label + '/' + wfile for wfile in os.listdir(data_path + '/' + label)]
@@ -162,40 +171,55 @@ class TextImageGenerator(keras.callbacks.Callback):
                     samples = pad_audio(samples, self.second * sample_rate)
                     augmentation_data = [samples]
                     for samples in augmentation_data:
-                        if len(label) <= MAX_TEXT_LEN and len(label) > 5:
-                            try:
-                                text_to_labels(label)
-                                if len(samples) <= self.second * sample_rate:
-                                    #     n_samples = chop_audio(samples, self.second * sample_rate)
-                                    # else:
-                                    # n_samples = [samples]
-                                    # for samples in n_samples:
-                                    # samples.astype(float)
-                                    # samples = samples / (2.0**(16-1) + 1)
-                                    resampled = signal.resample(samples, int(8000 / sample_rate * samples.shape[0]))
-                                    _, _, specgram = log_specgram(resampled, sample_rate=8000)
-                                    if (len(specgram) == self.second * 100 - 1):
-                                        count += 1
-                            except:
-                                print('error')
+                        if len(label.split('_')) <= MAX_TEXT_LEN and len(label) >= 5:
+                            # try:
+                            if len(samples) <= self.second * sample_rate:
+                                #     n_samples = chop_audio(samples, self.second * sample_rate)
+                                # else:
+                                # n_samples = [samples]
+                                # for samples in n_samples:
+                                # samples.astype(float)
+                                # samples = samples / (2.0**(16-1) + 1)
+                                resampled = signal.resample(samples, int(8000 / sample_rate * samples.shape[0]))
+                                _, _, specgram = log_specgram(resampled, sample_rate=8000)
+                                if (len(specgram) == self.second * 100 - 1):
+                                    count += 1
+                                lines.append(label.replace('_', ' '))
+                            # except:
+                            #     print('error')
                 pbar.update(1)
-        return count
+        return count, lines
 
     def build_data (self):
         print ("# train count processing")
-        self.n_train = self.process_count(self.train_data_path)
+        self.n_train, train_lines = self.process_count(self.train_data_path)
+        # print('self.n_train ', self.n_train)
         
         print ("# test count processing")
-        self.n_test = self.process_count(self.test_data_path)
+        self.n_test, test_lines = self.process_count(self.test_data_path)
+        test_lines.append(['_'])
+        # print('self.n_test ', self.n_test)
+
+        tokenization = create_tokenizer(train_lines + test_lines)
+        self.vocab_size = len(tokenization.word_index) + 1
         
         print ("# train data processing")
-        self.train_output_path = self.write_data(self.n_train, 'train_audio_data.hdf5', self.train_data_path)
-        # self.train_output_path = 'train_audio_data.hdf5'
+        #self.train_output_path = self.write_data(self.n_train, tokenization, 'train_audio_data.hdf5', self.train_data_path)
+        self.train_output_path = 'train_audio_data.hdf5'
         
         print ("# test data processing")
-        self.test_output_path = self.write_data(self.n_test, 'test_audio_data.hdf5', self.test_data_path)
-        # self.test_output_path = 'test_audio_data.hdf5'
-        
+        #self.test_output_path = self.write_data(self.n_test, tokenization, 'test_audio_data.hdf5', self.test_data_path)
+        self.test_output_path = 'test_audio_data.hdf5'
+    
+    def encode_output(self, sequences, vocab_size):
+        ylist = list()
+        for sequence in sequences:
+            encoded = to_categorical(sequence, num_classes=vocab_size)
+            ylist.append(encoded)
+            y = np.array(ylist)
+        y = y.reshape(sequences.shape[0], sequences.shape[1], vocab_size)
+        return y
+    
     def next_batch(self, type):
         dbPath = self.train_output_path
         if type == 'test':
@@ -206,7 +230,7 @@ class TextImageGenerator(keras.callbacks.Callback):
             for X_data, Y_data, label_length in generate:
                 if 0 in label_length:
                     continue
-                input_length = np.ones((X_data.shape[0], 1)) * 72
+                input_length = np.ones((X_data.shape[0], 1)) * 60
                 inputs = {
                     'the_input': X_data,
                     'the_labels': Y_data,
@@ -222,14 +246,11 @@ def ctc_lambda_func(args):
     return K.ctc_batch_cost(labels, y_pred, input_length, label_length)
 
 # Translation of characters to unique integer values
-def text_to_labels(text):
+def text_to_labels(tokenizer, text, max_len):
     text = text.replace('_', ' ')
-    for c in text:
-        if c not in alphabet:
-            print('text ', text)
-    while len(text) < MAX_TEXT_LEN:
-        text += '_'
-    return list(map(lambda x: alphabet.index(x), text))
+    text = tokenizer.texts_to_sequences([text])
+    text = pad_sequences(text, maxlen=max_len, padding='post')
+    return text
 
 def get_labels(path):
     labels = os.listdir(path)
@@ -297,6 +318,13 @@ def get_model(img_w, img_h):
     x = Activation(relu)(x)
     x = AveragePooling2D()(x)
 
+    # F_2
+    x = block(48, upscale=True)(x)       # !!! <------- Uncomment for local evaluation
+    x = block(48)(x)                     # !!! <------- Uncomment for local evaluation
+    x = BatchNormalization()(x)
+    x = Activation(relu)(x)
+    x = AveragePooling2D()(x)
+
     # last activation of the entire network's output
         
 
@@ -324,8 +352,8 @@ def get_model(img_w, img_h):
     # merge_layer_3 = Add()([img_1, pooling_2])
     # pooling_3 = MaxPooling2D(pool_size=(2, 2))(merge_layer_3)
     # pooling_3 = Dropout(rate=0.1)(merge_layer_3)
-
-    inner = Reshape(target_shape=(74, 20 * 32), name='reshape')(x)
+    Model(inputs=inp, outputs=x).summary()
+    inner = Reshape(target_shape=(62, 10 * 48), name='reshape')(x)
 
     gru_1 = Bidirectional(CuDNNLSTM(rnn_size, return_sequences=True, kernel_initializer=keras.initializers.he_uniform(seed=None), name='gru1'))(inner)
     gru_1b = Bidirectional(CuDNNLSTM(rnn_size, return_sequences=True, kernel_initializer=keras.initializers.he_uniform(seed=None), name='gru1_b'))(inner)
@@ -336,7 +364,7 @@ def get_model(img_w, img_h):
     lstm = Bidirectional(CuDNNLSTM(rnn_size , return_sequences=True, kernel_initializer=keras.initializers.he_uniform(seed=None), name='gru3'))(gru2_merged)
 
     inner = TimeDistributed(Dense(
-        tiger_train.get_output_size(),
+        tiger_train.vocab_size,
         kernel_initializer=keras.initializers.he_uniform(seed=None),
         name='dense2'
     ))(lstm)
@@ -354,7 +382,7 @@ def get_model(img_w, img_h):
     return model, tiger_train
 
 # TRAIN
-train_model, tiger_train = get_model(299, 81)
+train_model, tiger_train = get_model(499, 81)
 filepath = "model/model_30062019_len_30.h5"
 try:
     train_model.load_weights(filepath)
@@ -366,7 +394,7 @@ callbacks_list = [checkpoint]
 train_model.fit_generator(
     generator=tiger_train.next_batch('train'), 
     steps_per_epoch=tiger_train.n_train / 64,
-    epochs=500,
+    epochs=499,
     validation_data=tiger_train.next_batch('test'), 
     validation_steps=tiger_train.n_test / 64,
     callbacks=callbacks_list

@@ -1,3 +1,6 @@
 vn_voice_data
+vn_voice_data_16k
 test_data
 model
+test_audio_data.hdf5
+train_audio_data.hdf5
